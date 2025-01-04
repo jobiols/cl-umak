@@ -15,8 +15,11 @@ source <(grep -v '^#' .env | grep -v 'Host(')
 # Hacer un backup de la base de produccion
 # --------------------------------------------------------------------------------------
 sudo docker run --rm \
-#    --network compose_default \
     --volume ${base_ar}:/base \
     --link postgres:db \
     ${DBTOOLS_IMAGE} --days-to-keep ${days_to_keep} \
         --backup
+
+
+
+#    --network compose_default \
