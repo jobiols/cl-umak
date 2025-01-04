@@ -1,2 +1,2 @@
 # cl-umak
-proyecto para umak cliente de sams
+proyecto para umak cliente de umak
