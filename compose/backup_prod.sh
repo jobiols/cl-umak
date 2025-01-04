@@ -16,7 +16,7 @@ source <(grep -v '^#' .env | grep -v 'Host(')
 # --------------------------------------------------------------------------------------
 sudo docker run --rm \
     --volume ${base_ar}:/base \
-    --link postgres:db \
+    --link umak:db \
     ${DBTOOLS_IMAGE} --days-to-keep ${days_to_keep} \
         --backup
 
