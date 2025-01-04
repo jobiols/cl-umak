@@ -45,7 +45,7 @@
     "config_local": [],
     # list of url repos to install in the form 'repo-url directory'
     "git-repos": [
-        "git@github.com:jobiols/cl-umak.git -b 17.0",
+        "https://github.com/jobiols/cl-umak.git -b 17.0",
         # ingadhoc
         # Para el caso de la 17 y 18 adhoc tiene modificaciones que todavia no se pudieron mezclar en oca
         "https://github.com/ingadhoc/account-financial-tools.git sub_l10n-ar/account-financial-tools"
