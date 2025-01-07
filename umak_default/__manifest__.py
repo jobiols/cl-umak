@@ -39,9 +39,9 @@
     # if Enterprise it installs in a different directory than community
     "odoo-license": "EE",
     # port where odoo starts serving pages
-    "port": "8069",
+    "port": "8069",:
     # settins for config files
-    "config": [],
+    "config": ['proxy_mode = True'],
     "config_local": [],
     # list of url repos to install in the form 'repo-url directory'
     "git-repos": [
